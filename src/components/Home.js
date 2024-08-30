@@ -2,7 +2,7 @@ import React from 'react';
 
 
 export default function Home(){
-    let projectLink = <a href={"https://github.com/Matei-Paleacu/Exam-Finder2/tree/main/exam-finder"} target="_blank" rel="noopener noreferrer">GitHub</a>
+    let projectLink = <a href={"https://github.com/Matei-Paleacu/exam-finder"} target="_blank" rel="noopener noreferrer">GitHub</a>
     return (
       <div>
         <h1 className='home--title'>Welcome to Exam Finder</h1>
