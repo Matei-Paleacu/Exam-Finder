@@ -56,6 +56,10 @@ nav {
   font-size: 15px;
 }
 
+.search--container input::placeholder{
+  color: black;
+}
+
 .exam--table {
   margin: 20px auto;
   border-collapse: separate;
