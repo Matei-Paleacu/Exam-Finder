@@ -9,7 +9,7 @@ export default function Home(){
         <p className='home--text'> 
             Navigate to the "Find Exams" tab and search for your exams for the current semester.
             <br/> Currently Exam Finder is only updated with Summer 2024 classes, we will update the exam schedule as it is made available by the Univeristy.
-            <br/><br/> This is a project build by Matei Paleacu 2024 without official affiliation to Carleton Univeristy.
+            <br/><br/> This is a project built by Matei Paleacu 2024 without official affiliation to Carleton Univeristy.
             <br/> All the code can be found at this GitHub Repo: {projectLink}.
         </p>
       </div>

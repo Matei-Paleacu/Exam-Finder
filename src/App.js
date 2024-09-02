@@ -100,7 +100,7 @@ function App() {
         <form className="search--container">
           <input
             type="text"
-            placeholder="Search Class"
+            placeholder="Class One"
             className="form--search"
             name="classOne"
             value={search.classOne}
@@ -108,7 +108,7 @@ function App() {
           />
           <input
             type="text"
-            placeholder="Search Class"
+            placeholder="Class Two"
             className="form--search"
             name="classTwo"
             value={search.classTwo}
@@ -116,7 +116,7 @@ function App() {
           />
           <input
             type="text"
-            placeholder="Search Class"
+            placeholder="Class Three"
             className="form--search"
             name="classThree"
             value={search.classThree}
@@ -124,7 +124,7 @@ function App() {
           />
           <input
             type="text"
-            placeholder="Search Class"
+            placeholder="Class Four"
             className="form--search"
             name="classFour"
             value={search.classFour}
@@ -132,7 +132,7 @@ function App() {
           />
           <input
             type="text"
-            placeholder="Search Class"
+            placeholder="Class Five"
             className="form--search"
             name="classFive"
             value={search.classFive}
@@ -164,7 +164,7 @@ function App() {
               ))
             ) : (
               <tr>
-                <td colSpan="9">No exams found</td>
+                <td colSpan="9">No exams found. <i>e.g: BUSI 1001 R</i></td>
               </tr>
             )}
           </tbody>
